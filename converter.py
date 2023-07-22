@@ -16,6 +16,8 @@ options = {
     12: functions.hex_decimal,
     }
 
+functions.logo()
+
 while options['on_off']:
     try:
         functions.menu()
